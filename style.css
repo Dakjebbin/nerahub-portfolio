@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+}
+
+.nav_bar{
+    display: flex;
+  
+}
+
+.nav_bar ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.nav_bar ul li{
+    margin-right: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nav_bar ul a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    transition: background 0.3s;
+}
+
+.nav_bar ul li a:hover{
+    background-color: gray;
+    border-radius: 4px;
+}
+
+.hero{
+    background-color: white;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    margin-top: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-bottom: 30px;
+}
+
+.details h1{
+    font-size: 50px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+
+
+.skills-section{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.details p{
+    font-size: 17px;
+    line-height: 24px;
+}
+.details{
+    margin-left: 40px;
+}
+
+.image{
+    width: 250px;
+   
+     margin: auto;
+   
+}
+
+.my-image{
+   max-width: 100%;
+   border-radius: 4px;
+}
+
+.background{
+    padding-right: 8px;
+    padding-bottom: 8px;
+    
+    border-right:17px solid rgb(107, 106, 106);
+    border-bottom: 17px solid rgb(107, 106, 106);
+    
+}
+
+.background-2{
+    padding-left: 8px;
+    padding-bottom: 8px;
+    
+    border-left:17px solid rgb(107, 106, 106);
+    border-bottom: 17px solid rgb(107, 106, 106);
+    
+}
+
+.about-me{
+    background-color: #f9fafb;
+    border-radius: 9px;
+    padding-top: 10px;
+}
+
+.h4{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+  
+}
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.short_text p{
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.short_text h5{
+    font-size: 23px;
+}
+.short_text li{
+    line-height: 24px;
+    font-size: 14px;
+}
